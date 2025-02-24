@@ -5,7 +5,7 @@ export function makecoffe(callback){
     const estimasi = 5000;
 
     const inSecond = Math.ceil(estimasi/1000);
-    console.log('Mohon menunggu. Pramusaji sedang membuat kopi anda')
+    console.log(`Mohon menunggu. Pramusaji sedang membuat kopi anda dalam ${inSecond} detik`);
 
     setTimeout(()=>{
         //do some task to make a coffe....
